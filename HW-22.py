@@ -16,6 +16,6 @@ print("Сортированный список", sorted(array))
 left = float(array[0])
 right = float(array[-1])
 if any_number < left or any_number > right:
-    print("Числа нет в диапазоне")
+    print("Числа нет в списке")
 else:
     print("Индекс элемента, ближайшего минимальному от введенного числа", binary_search(array, any_number, 0, len(array) - 1))
